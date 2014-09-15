@@ -1,0 +1,7 @@
+parameters:
+#    team_a_crud.example.class: teamA\CrudBundle\Example
+
+services:
+#    team_a_crud.example:
+#        class: %team_a_crud.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

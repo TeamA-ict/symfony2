@@ -1,0 +1,7 @@
+test_page:
+    pattern:  /index/
+    defaults: { _controller: teamACrudBundle:Default:index }
+
+parents_page:
+    pattern:  /parents/
+    defaults: { _controller: teamACrudBundle:Default:parents }

@@ -1,0 +1,147 @@
+{% extends '::base.html.twig' %}
+{% block title %}Team A ICT{% endblock %}
+{% block body %}
+    <div class="container">
+
+    {% include('teamACrudBundle:Default:Sub/Header.html.twig') %}
+
+    {% include('teamACrudBundle:Default:Sub/Slider.html.twig') %}
+
+    {% include('teamACrudBundle:Default:Sub/Tab.html.twig') %}
+
+
+
+
+
+
+           <br><br>
+
+        <div class="container" style="text-align:center;">
+
+            <div class="span3" style=" background-color:background: rgb(60, 187, 250);
+background: -moz-linear-gradient(90deg, rgb(60, 187, 250) 39%, rgb(21, 72, 134) 100%);
+background: -webkit-linear-gradient(90deg, rgb(60, 187, 250) 39%, rgb(21, 72, 134) 100%);
+background: -o-linear-gradient(90deg, rgb(60, 187, 250) 39%, rgb(21, 72, 134) 100%);
+background: -ms-linear-gradient(90deg, rgb(60, 187, 250) 39%, rgb(21, 72, 134) 100%);
+background: linear-gradient(180deg, rgb(60, 187, 250) 39%, rgb(21, 72, 134) 100%);
+border-radius:10px; height:275px;">
+                <h3 class="whiteFont">Videos</h3>
+
+                <img src="{{asset('bundles/teamacrud/images/Videos.png')}}" alt="Video">
+                <br><br>
+                <ul style="list-style:none;">
+                    <li><a href="#">Women in ICT field >></a></li>
+                    <li><a href="#">Transition to IT >></a></li>
+                </ul>
+
+                <p style="color:#3cbbfa">Read More >></p>
+
+            </div>
+
+
+            <div class="span3" style=" background-color:background: rgb(237, 100, 2);
+background: -moz-linear-gradient(90deg, rgb(237, 100, 2) 39%, rgb(140, 0, 3) 100%);
+background: -webkit-linear-gradient(90deg, rgb(237, 100, 2) 39%, rgb(140, 0, 3) 100%);
+background: -o-linear-gradient(90deg, rgb(237, 100, 2) 39%, rgb(140, 0, 3) 100%);
+background: -ms-linear-gradient(90deg, rgb(237, 100, 2) 39%, rgb(140, 0, 3) 100%);
+background: linear-gradient(180deg, rgb(237, 100, 2) 39%, rgb(140, 0, 3) 100%); border-radius:10px; height:275px;">
+                <h3 class="whiteFont">Learning Guide</h3>
+
+                <img src="{{asset('bundles/teamacrud/images/ebooks.png')}}" alt="Books">
+                <br><br>
+                <ul style="list-style:none;">
+                    <li><a href="http://www.lifehacker.com.au/2014/02/it-salaries-how-much-youll-earn-state-by-state/">ICT Education >></a></li>
+                    <li><a href="#">Transition to ICT >></a></li>
+                </ul>
+
+                <p style="color:#ee6601;">Read More >></p>
+            </div>
+
+
+
+            <div class="span3" style=" background: #ffb408;
+background: -moz-linear-gradient(top,  #ffb408 0%, #fe5907 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb408), color-stop(100%,#fe5907));
+background: -webkit-linear-gradient(top,  #ffb408 0%,#fe5907 100%);
+background: -o-linear-gradient(top,  #ffb408 0%,#fe5907 100%);
+background: -ms-linear-gradient(top,  #ffb408 0%,#fe5907 100%);
+background: linear-gradient(to bottom,  #ffb408 0%,#fe5907 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb408', endColorstr='#fe5907',GradientType=0 );
+ border-radius:10px; height:275px;">
+                <h3 class="whiteFont">News & Events</h3>
+
+                <img src="{{asset('bundles/teamacrud/images/news.png')}}" alt="Books">
+                <br><br>
+                <ul style="list-style:none;">
+                    <li><a href="https://www.wgea.gov.au/content/lessons-success-attracting-women-ict">Success Stories</a></li>
+                    <li><a href="http://au.gradconnection.com/internships/information-technology/">New Internships</a></li>
+                </ul>
+
+                <p style="color:#fdd99b;">Read More >></p>
+
+            </div>
+
+
+            <div class="span3" style=" background: #c2d402;
+background: -moz-linear-gradient(top,  #c2d402 0%, #5e8a00 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c2d402), color-stop(100%,#5e8a00));
+background: -webkit-linear-gradient(top,  #c2d402 0%,#5e8a00 100%);
+background: -o-linear-gradient(top,  #c2d402 0%,#5e8a00 100%);
+background: -ms-linear-gradient(top,  #c2d402 0%,#5e8a00 100%);
+background: linear-gradient(to bottom,  #c2d402 0%,#5e8a00 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c2d402', endColorstr='#5e8a00',GradientType=0 );
+
+ border-radius:10px; height:275px;">
+                <h3 class="whiteFont">Educational Games</h3>
+
+                <img src="{{asset('bundles/teamacrud/images/games.png')}}" alt="Books">
+                <br><br>
+                <ul style="list-style:none;">
+                    <li><a href="http://primarygamesarena.com/6th-Grade#Computers">Year 5-7</a></li>
+                    <li><a href="http://www.helpteaching.com/questions/Technology/Grade_8">Year 8-10</a></li>
+                </ul>
+
+                <p style="color:#c2d503">Read More >></p>
+            </div>
+        </div>
+
+
+        <div class="span12">
+            <div class="span2"><img src="{{asset('bundles/teamacrud/images/Logo1.png')}}" alt="logo1"></div>
+            <div class="span2"><img src="{{asset('bundles/teamacrud/images/Logo2.png')}}" alt="logo1"></div>
+            <div class="span2"><img src="{{asset('bundles/teamacrud/images/Logo3.png')}}" alt="logo1"></div>
+            <div class="span2"><img src="{{asset('bundles/teamacrud/images/Logo4.png')}}" alt="logo1"></div>
+            <div class="span2"><img src="{{asset('bundles/teamacrud/images/Logo5.png')}}" alt="logo1"></div>
+            <div class="span2"><img src="{{asset('bundles/teamacrud/images/Logo6.png')}}" alt="logo1"></div>
+
+        </div>
+
+
+        </div>
+
+
+        <br><br>
+
+
+
+
+
+
+
+
+
+    <!-- /container -->
+{% endblock %}
+{% block footer %}
+
+    {% include('teamACrudBundle:Default:Sub/Footer.html.twig') %}
+
+{% endblock %}
+
+
+
+
+
+
+
+
