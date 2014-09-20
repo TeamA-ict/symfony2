@@ -15,6 +15,16 @@ class DefaultController extends Controller
 
 
 
+class ParentController extends Controller
+{
+    public function indexAction()
+    {
+        return $this->render('teamACrudBundle:Default:parents.html.twig');
+    }
+}
+
+
+
 
 
 

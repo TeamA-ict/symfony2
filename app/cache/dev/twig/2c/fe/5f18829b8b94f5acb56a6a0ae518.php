@@ -32,26 +32,26 @@ class __TwigTemplate_2cfe5f18829b8b94f5acb56a6a0ae518 extends Twig_Template
         echo "Team A ICT";
     }
 
-    // line 3
+    // line 5
     public function block_body($context, array $blocks = array())
     {
-        // line 4
+        // line 6
         echo "    <div class=\"container\">
 
     ";
-        // line 6
-        $this->env->loadTemplate("teamACrudBundle:Default:Sub/Header.html.twig")->display($context);
-        // line 7
-        echo "
-    ";
         // line 8
-        $this->env->loadTemplate("teamACrudBundle:Default:Sub/Slider.html.twig")->display($context);
+        $this->env->loadTemplate("teamACrudBundle:Default:Sub/Header.html.twig")->display($context);
         // line 9
         echo "
     ";
         // line 10
-        $this->env->loadTemplate("teamACrudBundle:Default:Sub/Tab.html.twig")->display($context);
+        $this->env->loadTemplate("teamACrudBundle:Default:Sub/Slider.html.twig")->display($context);
         // line 11
+        echo "
+    ";
+        // line 12
+        $this->env->loadTemplate("teamACrudBundle:Default:Sub/Tab.html.twig")->display($context);
+        // line 13
         echo "
 
 
@@ -72,7 +72,7 @@ border-radius:10px; height:275px;\">
                 <h3 class=\"whiteFont\">Videos</h3>
 
                 <img src=\"";
-        // line 30
+        // line 32
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/teamacrud/images/Videos.png"), "html", null, true);
         echo "\" alt=\"Video\">
                 <br><br>
@@ -95,7 +95,7 @@ background: linear-gradient(180deg, rgb(237, 100, 2) 39%, rgb(140, 0, 3) 100%); 
                 <h3 class=\"whiteFont\">Learning Guide</h3>
 
                 <img src=\"";
-        // line 50
+        // line 52
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/teamacrud/images/ebooks.png"), "html", null, true);
         echo "\" alt=\"Books\">
                 <br><br>
@@ -121,7 +121,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb408', end
                 <h3 class=\"whiteFont\">News & Events</h3>
 
                 <img src=\"";
-        // line 73
+        // line 75
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/teamacrud/images/news.png"), "html", null, true);
         echo "\" alt=\"Books\">
                 <br><br>
@@ -148,7 +148,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c2d402', end
                 <h3 class=\"whiteFont\">Educational Games</h3>
 
                 <img src=\"";
-        // line 97
+        // line 99
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/teamacrud/images/games.png"), "html", null, true);
         echo "\" alt=\"Books\">
                 <br><br>
@@ -164,27 +164,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c2d402', end
 
         <div class=\"span12\">
             <div class=\"span2\"><img src=\"";
-        // line 110
+        // line 112
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/teamacrud/images/Logo1.png"), "html", null, true);
         echo "\" alt=\"logo1\"></div>
             <div class=\"span2\"><img src=\"";
-        // line 111
+        // line 113
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/teamacrud/images/Logo2.png"), "html", null, true);
         echo "\" alt=\"logo1\"></div>
             <div class=\"span2\"><img src=\"";
-        // line 112
+        // line 114
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/teamacrud/images/Logo3.png"), "html", null, true);
         echo "\" alt=\"logo1\"></div>
             <div class=\"span2\"><img src=\"";
-        // line 113
+        // line 115
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/teamacrud/images/Logo4.png"), "html", null, true);
         echo "\" alt=\"logo1\"></div>
             <div class=\"span2\"><img src=\"";
-        // line 114
+        // line 116
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/teamacrud/images/Logo5.png"), "html", null, true);
         echo "\" alt=\"logo1\"></div>
             <div class=\"span2\"><img src=\"";
-        // line 115
+        // line 117
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/teamacrud/images/Logo6.png"), "html", null, true);
         echo "\" alt=\"logo1\"></div>
 
@@ -208,15 +208,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c2d402', end
 ";
     }
 
-    // line 135
+    // line 137
     public function block_footer($context, array $blocks = array())
     {
-        // line 136
+        // line 138
         echo "
     ";
-        // line 137
+        // line 139
         $this->env->loadTemplate("teamACrudBundle:Default:Sub/Footer.html.twig")->display($context);
-        // line 138
+        // line 140
         echo "
 ";
     }
@@ -233,6 +233,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c2d402', end
 
     public function getDebugInfo()
     {
-        return array (  220 => 138,  218 => 137,  215 => 136,  212 => 135,  188 => 115,  184 => 114,  180 => 113,  176 => 112,  172 => 111,  168 => 110,  152 => 97,  125 => 73,  99 => 50,  76 => 30,  55 => 11,  53 => 10,  50 => 9,  48 => 8,  45 => 7,  43 => 6,  39 => 4,  36 => 3,  30 => 2,);
+        return array (  220 => 140,  218 => 139,  215 => 138,  212 => 137,  188 => 117,  184 => 116,  180 => 115,  176 => 114,  172 => 113,  168 => 112,  152 => 99,  125 => 75,  99 => 52,  76 => 32,  55 => 13,  53 => 12,  50 => 11,  48 => 10,  45 => 9,  43 => 8,  39 => 6,  36 => 5,  30 => 2,);
     }
 }

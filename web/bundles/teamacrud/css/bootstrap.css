@@ -292,9 +292,18 @@ a:focus {
   width: 940px;
 }
 
+.ie8 .container {  
+    width: 1000px;  
+}
+
 .span12 {
   width: 940px;
 }
+
+.ie8 .span12 {  
+    width: 1000px;  
+}
+
 
 .span11 {
   width: 860px;
