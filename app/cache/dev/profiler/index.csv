@@ -17,3 +17,7 @@
 5419606ddc648,::1,GET,http://localhost/symfony2/symfony/web/app_dev.php/parents/,1410949229,
 541ccdb563800,::1,GET,http://localhost/symfony2/symfony/web/app_dev.php/index/,1411173813,
 541cff845bedf,::1,GET,http://localhost/symfony2/symfony/web/app_dev.php/index/,1411186564,
+541d77ace5bd4,::1,GET,http://localhost/symfony2/symfony/web/app_dev.php/index/,1411217324,
+5420b56edc531,::1,GET,http://localhost/symfony2/symfony/web/app_dev.php/index/,1411429742,
+5420b57c9a8eb,::1,GET,http://localhost/symfony2/symfony/web/app_dev.php/hello/sachila,1411429756,
+5420b57cc94f6,::1,GET,http://localhost/symfony2/symfony/web/app_dev.php/hello/sachila,1411429756,
