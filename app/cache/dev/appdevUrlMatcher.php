@@ -177,7 +177,7 @@ class appdevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
                 return $this->redirect($pathinfo.'/', 'parents_page');
             }
 
-            return array (  '_controller' => 'teamA\\CrudBundle\\Controller\\ParentController::parentsAction',  '_route' => 'parents_page',);
+            return array (  '_controller' => 'teamA\\CrudBundle\\Controller\\DefaultController::parentsAction',  '_route' => 'parents_page',);
         }
 
         throw 0 < count($allow) ? new MethodNotAllowedException(array_unique($allow)) : new ResourceNotFoundException();

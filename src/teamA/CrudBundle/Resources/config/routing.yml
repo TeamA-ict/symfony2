@@ -4,4 +4,4 @@ test_page:
 
 parents_page:
     pattern:  /parents/
-    defaults: { _controller: teamACrudBundle:Parent:parents }
+    defaults: { _controller: teamACrudBundle:Default:parents }
