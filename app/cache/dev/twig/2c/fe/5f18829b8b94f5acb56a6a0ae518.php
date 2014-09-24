@@ -77,7 +77,9 @@ border-radius:10px; height:275px;\">
         echo "\" alt=\"Video\">
                 <br><br>
                 <ul style=\"list-style:none;\">
-                    <li><a href=\"#\">Women in ICT field >></a></li>
+
+
+                    <li><a href=\"/parents\">Women in ICT field >></a></li>
                     <li><a href=\"#\">Transition to IT >></a></li>
                 </ul>
 
@@ -95,7 +97,7 @@ background: linear-gradient(180deg, rgb(237, 100, 2) 39%, rgb(140, 0, 3) 100%); 
                 <h3 class=\"whiteFont\">Learning Guide</h3>
 
                 <img src=\"";
-        // line 52
+        // line 54
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/teamacrud/images/ebooks.png"), "html", null, true);
         echo "\" alt=\"Books\">
                 <br><br>
@@ -121,7 +123,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb408', end
                 <h3 class=\"whiteFont\">News & Events</h3>
 
                 <img src=\"";
-        // line 75
+        // line 77
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/teamacrud/images/news.png"), "html", null, true);
         echo "\" alt=\"Books\">
                 <br><br>
@@ -148,7 +150,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c2d402', end
                 <h3 class=\"whiteFont\">Educational Games</h3>
 
                 <img src=\"";
-        // line 99
+        // line 101
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/teamacrud/images/games.png"), "html", null, true);
         echo "\" alt=\"Books\">
                 <br><br>
@@ -164,27 +166,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c2d402', end
 
         <div class=\"span12\">
             <div class=\"span2\"><img src=\"";
-        // line 112
+        // line 114
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/teamacrud/images/Logo1.png"), "html", null, true);
         echo "\" alt=\"logo1\"></div>
             <div class=\"span2\"><img src=\"";
-        // line 113
+        // line 115
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/teamacrud/images/Logo2.png"), "html", null, true);
         echo "\" alt=\"logo1\"></div>
             <div class=\"span2\"><img src=\"";
-        // line 114
+        // line 116
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/teamacrud/images/Logo3.png"), "html", null, true);
         echo "\" alt=\"logo1\"></div>
             <div class=\"span2\"><img src=\"";
-        // line 115
+        // line 117
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/teamacrud/images/Logo4.png"), "html", null, true);
         echo "\" alt=\"logo1\"></div>
             <div class=\"span2\"><img src=\"";
-        // line 116
+        // line 118
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/teamacrud/images/Logo5.png"), "html", null, true);
         echo "\" alt=\"logo1\"></div>
             <div class=\"span2\"><img src=\"";
-        // line 117
+        // line 119
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/teamacrud/images/Logo6.png"), "html", null, true);
         echo "\" alt=\"logo1\"></div>
 
@@ -208,15 +210,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c2d402', end
 ";
     }
 
-    // line 137
+    // line 139
     public function block_footer($context, array $blocks = array())
     {
-        // line 138
+        // line 140
         echo "
     ";
-        // line 139
+        // line 141
         $this->env->loadTemplate("teamACrudBundle:Default:Sub/Footer.html.twig")->display($context);
-        // line 140
+        // line 142
         echo "
 ";
     }
@@ -233,6 +235,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c2d402', end
 
     public function getDebugInfo()
     {
-        return array (  220 => 140,  218 => 139,  215 => 138,  212 => 137,  188 => 117,  184 => 116,  180 => 115,  176 => 114,  172 => 113,  168 => 112,  152 => 99,  125 => 75,  99 => 52,  76 => 32,  55 => 13,  53 => 12,  50 => 11,  48 => 10,  45 => 9,  43 => 8,  39 => 6,  36 => 5,  30 => 2,);
+        return array (  222 => 142,  220 => 141,  217 => 140,  214 => 139,  190 => 119,  186 => 118,  182 => 117,  178 => 116,  174 => 115,  170 => 114,  154 => 101,  127 => 77,  101 => 54,  76 => 32,  55 => 13,  53 => 12,  50 => 11,  48 => 10,  45 => 9,  43 => 8,  39 => 6,  36 => 5,  30 => 2,);
     }
 }

@@ -10,19 +10,20 @@ class DefaultController extends Controller
     public function indexAction()
     {
         return $this->render('teamACrudBundle:Default:index.html.twig');
-        return $this->render('teamACrudBundle:Default:parents.html.twig');
+
+
     }
 }
 
 
 
-/*class ParentController extends Controller
+class ParentController extends Controller
 {
-    public function indexAction()
+    public function parentAction()
     {
-        return $this->render('teamACrudBundle:Default:parents.html.twig');
+        return $this->render('teamACrudBundle:Parent:parents.html.twig');
     }
-}*/
+}
 
 
 
